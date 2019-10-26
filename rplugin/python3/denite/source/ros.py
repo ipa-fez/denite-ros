@@ -1,7 +1,7 @@
 import typing
 
 from denite.source.base import Base
-from denite.util import Nvim, UserContext, Candidates, debug
+from denite.util import Nvim, UserContext, Candidates
 import rospkg
 
 
