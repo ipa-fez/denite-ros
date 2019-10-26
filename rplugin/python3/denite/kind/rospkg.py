@@ -1,7 +1,7 @@
 import typing
 
 from denite.kind.base import Base
-from denite.util import Nvim, UserContext, debug
+from denite.util import Nvim, UserContext
 
 
 class Kind(Base):
