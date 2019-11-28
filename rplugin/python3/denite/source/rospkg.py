@@ -8,8 +8,8 @@ import rospkg
 class Source(Base):
     def __init__(self, vim: Nvim) -> None:
         super().__init__(vim)
-        self.name = 'rosed'
-        self.kind = 'ros'
+        self.name = 'rospkg'
+        self.kind = 'rospkg'
 
     def gather_candidates(self, context: UserContext) -> Candidates:
         rosp = rospkg.RosPack()

@@ -8,7 +8,7 @@ class Kind(Base):
     def __init__(self, vim: Nvim) -> None:
         super().__init__(vim)
 
-        self.name = 'ros'
+        self.name = 'rospkg'
         self.default_action = 'rosed'
 
     def action_rosed(self, context: UserContext) -> None:
